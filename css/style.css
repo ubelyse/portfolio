@@ -1,0 +1,140 @@
+header {
+    height: 300px;
+    background-image: url(../image/backg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.myself {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    justify-content: space-between;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.skil {
+    margin-left: 100px;
+    text-justify: auto;
+}
+
+.my-bg {
+    margin-left: 100px;
+}
+
+.who {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Kaushan Script', cursive;
+}
+
+@media screen and (max-width:768px)and(min-width:320) {
+    header {
+        height: 300px;
+        background-image: url(../image/hea.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .my-bg {
+        margin-left: 100px;
+    }
+    .who {
+        text-align: center;
+    }
+    .josh {
+        margin-left: 200px;
+        padding-top: 50px;
+    }
+    .exl p {
+        margin-left: 45px;
+    }
+    
+
+}
+
+h2 {
+    color: green;
+}
+
+.fa-basketball-ball {
+    color: brown;
+}
+
+.fa-guitar {
+    color: crimson;
+}
+
+.intr {
+    display: flex;
+    flex-direction: row;
+}
+
+.exl p {
+    margin-left: 45px;
+}
+
+.pj div {
+    display: flex;
+    flex-direction: row;
+}
+
+.pj img, p {
+    margin-left: 100px;
+}
+
+.pj {
+    background-color: lightblue;
+}
+
+.wel {
+    margin-left: 300px;
+    color: color;
+    padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 200px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+    color: blue;
+}
+
+.zil {
+    margin-left: 500px;
+}
+
+.fa-facebook-f {
+    color: blue;
+}
+
+.fa-twitter {
+    color: #66ccff;
+}
+
+.rec p {
+    color: red;
+}
+
+footer p {
+    text-align: center;
+}
